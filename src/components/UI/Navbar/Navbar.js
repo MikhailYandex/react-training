@@ -1,18 +1,17 @@
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
-import { AuthContext } from "../../../context/Context";
 import MyButton from "../button/MyButton";
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../../context/Context";
 
 const Navbar = () => {
   const { isAuth, setIsAuth } = useContext(AuthContext);
-	let navigate = useNavigate();
+  let navigate = useNavigate();
 
-	const logout = () => {
-		setIsAuth(false)
-		localStorage.removeItem('auth')
-		navigate('/login')
-	}
+  const logout = () => {
+    setIsAuth(false);
+    localStorage.removeItem("auth");
+    navigate("/login");
+  };
 
   return (
     <div className="navbar">

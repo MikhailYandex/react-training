@@ -26,7 +26,7 @@ const PostIdPage = () => {
 
   return (
     <div>
-      <h1>Вы открыли страницу поста с ID = {params.id}</h1>
+      <h2>Вы открыли страницу поста с ID = {params.id}</h2>
       {isLoading ? (
         <Loader />
       ) : (

@@ -14,7 +14,7 @@ function PostList({ posts, title, remove }) {
         {posts.map((post, index) => (
           <CSSTransition
             key={post.id}
-            timeout={500}
+            timeout={400}
             classNames="post"
           >
             <PostItem remove={remove} number={index + 1} post={post} />
