@@ -7,7 +7,7 @@
 
 P.S: Делался основной упор на логику по React.js, верстке и "красоте" приложения было минимум уделено времени, самое главное настроен функционал.
 
-[Ссылка на Github Pages](https://mikhailyandex.github.io/login)
+[Ссылка на Github Pages](https://mikhailyandex.github.io/react-training)
 
 ### Используемые технологии
 * HTML5
