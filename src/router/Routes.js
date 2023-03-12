@@ -9,10 +9,10 @@ export const privateRoutes = [
   { path: "/about", component: About, exact: true },
   { path: "/posts/:id", component: PostIdPage, exact: true },
   { path: "*", component: Error, exact: true },
-  { path: "/", component: Posts, exact: true },
+  { path: "/login", component: Login, exact: true },
 ];
 
-export const publicRoutes = [{ path: "/login", component: Login, exact: true }];
+export const publicRoutes = [{ path: "/", component: Login, exact: true }];
 
 //<Route path="/posts" element={<Posts />} />
 //<Route path="/about" element={<About />} />
