@@ -10,7 +10,7 @@ const Navbar = () => {
   const logout = () => {
     setIsAuth(false);
     localStorage.removeItem("auth");
-    navigate("/login");
+    navigate("/react-training/");
   };
 
   return (
