@@ -10,12 +10,12 @@ P.S: Делался основной упор на логику по React.js, �
 [Ссылка на Github Pages](https://mikhailyandex.github.io/react-training)
 
 ### Используемые технологии
-* HTML5
-* CSS3
-* React.js
-* React Router
-* Javascript
-* API
+* HTML5;
+* CSS3;
+* React.js;
+* React Router;
+* Javascript;
+* API;
 
 <img width="1503" alt="React-Training" src="https://user-images.githubusercontent.com/114576286/224528960-e2d4d221-9ff5-4c08-84f7-4b502e3e56b3.png">
 
